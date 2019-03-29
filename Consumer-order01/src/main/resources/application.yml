@@ -1,0 +1,12 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: consumer-order01
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:10000/eureka,http://eureka02:10001/eureka  #同时注册到01和02
+  instance:
+    prefer-ip-address: true

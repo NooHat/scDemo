@@ -1,0 +1,17 @@
+server:
+  port: 10000
+  #context-path: /Eureka01
+eureka:
+  client:
+    register-with-eureka: false #表示不向注册中心注册自己 自己已经是注册中心
+    fetch-registry: false #表示自己就是注册中心，不需要去检索服务
+    service-url:
+      defaultZone: http://eureka02:10001/eureka #同步到eureka02上
+  instance:
+    hostname: eureka01
+security:
+  basic:
+    enabled: false
+
+
+

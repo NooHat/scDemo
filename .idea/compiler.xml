@@ -6,14 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Consumerorder01" />
+        <module name="Consumer-order01" />
         <module name="Eureka01" />
         <module name="Eureka02" />
-        <module name="Provideruser01" />
-        <module name="provideruser02" />
-        <module name="scapi" />
+        <module name="provider-user01" />
+        <module name="provider-user02" />
+        <module name="sc-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
   </component>
 </project>

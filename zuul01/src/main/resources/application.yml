@@ -1,0 +1,26 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: zuul01
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:10000/eureka,http://eureka02:10001/eureka  #同时注册到01和02
+  instance:
+    instance-id: zuul01
+    prefer-ip-address: true
+
+zuul:
+  ignored-services: provideruser #忽略原路径
+  routes:
+    mydept.serviceId: provideruser
+    mydept.path: /mydept/**
+
+info:
+  app.name: zuul01
+  company.name: com.nh
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

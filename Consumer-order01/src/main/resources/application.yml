@@ -2,7 +2,7 @@ server:
   port: 8900
 spring:
   application:
-    name: consumer-order01
+    name: consumerorder01
 
 eureka:
   client:

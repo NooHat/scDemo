@@ -15,6 +15,7 @@
     <module>Consumer-order01</module>
     <module>Eureka02</module>
     <module>provider-user02</module>
+    <module>zuul01</module>
   </modules>
 
   <name>scDemo</name>

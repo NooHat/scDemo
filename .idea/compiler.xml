@@ -7,11 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Consumer-order01" />
+        <module name="Consumerorder01" />
         <module name="Eureka01" />
         <module name="Eureka02" />
         <module name="provider-user01" />
         <module name="provider-user02" />
+        <module name="Provideruser01" />
+        <module name="provideruser02" />
         <module name="sc-api" />
+        <module name="scapi" />
+        <module name="zuul01" />
       </profile>
     </annotationProcessing>
   </component>

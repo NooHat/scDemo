@@ -10,11 +10,11 @@ mybatis:
 
 spring:
    application:
-    name: provider-user01 #应用名称，别名
+    name: provideruser #应用名称，别名
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver             # mysql驱动包  mysql8.0以后 驱动包路径改为com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sc01              # 数据库名称
+    url: jdbc:mysql://localhost:3306/sc01?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false              # 数据库名称
     username: root
     password: 1thisismypwd
     dbcp2:

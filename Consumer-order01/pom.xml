@@ -32,6 +32,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>1.5.4.RELEASE</version>
         </dependency>
+        <!--feign相关依赖-->
+        <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
         <!--eureka依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
